@@ -5,7 +5,31 @@
   margin-top: 3rem;
   padding: 1rem;
 }
+/* about intro*/
+.about-intro{
+  position: relative;
+  background: linear-gradient(135deg, rgba(0, 123, 255, 0.15), rgba(0, 255, 255, 0.15));
+  backdrop-filter: blur(20px) saturate(200%);
+  -webkit-backdrop-filter: blur(20px) saturate(200%);
+  border-radius: 25px;
+  border: 1px solid rgba(0, 123, 255, 0.25);
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.5s ease;
+  box-shadow: 0 8px 32px rgba(0, 123, 255, 0.3),
+              inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  animation: fadeUp 1.2s ease forwards, glassShine 3s ease-in-out infinite;
+  opacity: 0;
+  transform: translateY(40px);
 
+}
+.about-intro h2 {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: #00e0ff;
+  font-weight: 600;
+  text-shadow: 0 2px 6px rgba(0, 224, 255, 0.4);
+}
 /* Gallery Item */
 .gallery-item {
   position: relative;
@@ -115,3 +139,4 @@
     font-size: 0.9rem;
   }
 }
+
